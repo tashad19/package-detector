@@ -26,6 +26,8 @@ For testing purpose, you can use either:
 4. Go to the ColourDetectionWebcam.py file, go to 'PASTE YOUR IPv4 HERE' and paste it. Leave the other things as it is.
 5. Run this python file
 
+![](https://github.com/tashad19/package-detector/blob/main/IP%20camera%20steps.jpg)
+
 ### Explanation of windows 
 After running either of the two programs, you will see 3 windows pop up:
 1. Object Detection: It displays the mask of the frame. HSV values are preset by me but you can adjust them to match the colour of package.
