@@ -2,7 +2,7 @@
 # Package Detector
 
 ## Description
-This is a project made using Python, OpenCV and various other libraries. It can use either a webcam or smartphone camera to detect package by using colour detection, estimate its dimensions and its (x,y,z) coordinates relative to the camera and also read its barcode when placed close enough.
+This is a project made using Python, OpenCV and various other libraries. It can use either a webcam or smartphone camera to detect packages by using colour detection, estimate its dimensions and its (x,y,z) coordinates relative to the camera and also reads its barcode when placed close enough.
 
 
 
@@ -32,7 +32,7 @@ For testing purpose, you can use either:
 After running either of the two programs, you will see 3 windows pop up:
 1. Object Detection: It displays the mask of the frame. HSV values are preset by me but you can adjust them to match the colour of package.
 2. Object with metrics: It is the actual window in which all the measurements and bounding box are displayed for the frame.
-3. Reference Image: This is displayed only if you provide a reference image. It is used for finding the focal length using similar triangles method.
+3. Reference Image: This is the 'reference.jpg' image you provided in the same directory with the marker. It is used for finding the focal length using similar triangles method.
 
 ### Reference image
 For the program to run, you have to provide a reference image with the name 'reference.jpg' in the same working directory. 
@@ -41,10 +41,9 @@ This is used for finding focal length for distance(z) and size estimations.
 
 ## Features
 
-- (x,y,z) coordinates
-- Length and width of bounding box
-- Barcode reading
-- Use either smartphone camera or webcam
+- (x,y,z) coordinates: Look for x,y,z variables in the while True loop
+- Length and width of bounding box: Look for dimA, dimB in the while True loop
+- Barcode reading: myData variable in the barcode loop
 
 
 ## Optimizations
