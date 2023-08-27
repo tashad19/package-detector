@@ -23,7 +23,7 @@ For testing purpose, you can use either:
 1. Install 'IP Webcam' app from play store on your phone
 2. Choose the 'Start server' option
 3. Note the IPv4 address displayed on bottom. Keep the camera running.
-4. Go to the ColourDetectionWebcam.py file, go to 'PASTE YOUR IPv4 HERE' and paste it. Leave the other things as it is.
+4. Go to the ColourDetectionWebcam.py file, go to 'PASTE YOUR IPv4 HERE' and modify the value of url variable for only the ip address. Leave the other things as it is.
 5. Run this python file
 
 ![](https://github.com/tashad19/package-detector/blob/main/IP%20camera%20steps.jpg)
