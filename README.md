@@ -14,6 +14,10 @@ This is a project made using Python, OpenCV and various other libraries. It can 
 
 ## Usage
 
+### Installation instructions
+- Python 3.x
+- For downloading other packages, open cmd and run: pip install -r requirements.txt
+
 ### Camera options
 For testing purpose, you can use either:
 - Smartphone Camera: Run the ColourDetectionWebcam.py file
