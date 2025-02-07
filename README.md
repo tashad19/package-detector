@@ -16,12 +16,21 @@ This is a project made using Python, OpenCV and various other libraries. It can 
 
 ### Installation instructions
 - Python 3.x with pip
-- Requirements.txt: For downloading other packages, open cmd and run: pip install -r requirements.txt
+- Requirements.txt: For downloading other packages, open cmd and run:
+``` python
+pip install -r requirements.txt
+```
 
 ### Camera options
 For testing purpose, you can use either:
-- Smartphone Camera: Run the ColourDetectionWebcam.py file
-- Webcam: Run the ColourDetectionCam.py file
+- Smartphone Camera: Run the ColourDetectionWebcam.py file using this command:
+``` python
+python ColourDetectionWebcam.py
+```
+- Webcam: Run the ColourDetectionCam.py file using this commands:
+``` python
+python ColourDetectionCam.py
+```
 
 ### Steps for using smartphone camera:
 1. Install 'IP Webcam' app from play store on your phone
